@@ -1,0 +1,4 @@
+# datadrivers_docker
+- src: https://github.com/datadrivers/ansible-role-docker.git
+  version: master
+  name: datadrivers_docker

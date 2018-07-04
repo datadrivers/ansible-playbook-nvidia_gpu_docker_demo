@@ -1,0 +1,8 @@
+---
+# Playbook to install Docker
+- hosts: all
+  become: yes
+  become_user: root
+  gather_facts: true
+  roles:
+    - datadrivers_docker

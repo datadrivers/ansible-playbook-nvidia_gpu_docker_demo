@@ -1,6 +1,6 @@
 ---
 # Playbook to install Docker
-- hosts: all
+- hosts: docker-host
   become: yes
   become_user: root
   gather_facts: true

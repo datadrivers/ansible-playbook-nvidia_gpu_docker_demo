@@ -1,2 +1,0 @@
-[docker-host]
-demo.example.com ansible_host=1.2.3.4

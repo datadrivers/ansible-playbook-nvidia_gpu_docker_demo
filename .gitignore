@@ -1,0 +1,21 @@
+# ignore ansible-galaxy roles in subfolders
+galaxy-roles/*
+
+# ansible retry files
+*.retry
+
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+# temporary
+*~
+
+# IDE stuff
+.idea
+.vscode/*
+
+# Trash bin
+.DS_Store
+.Trash-*
